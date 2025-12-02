@@ -1,4 +1,4 @@
-with open("data1.txt","r") as file:
+with open("data1.txt", "r") as file:
     data = file.readlines()
     for i in range(len(data)):
         data[i] = [data[i][:1],int(data[i][1:].rstrip())]
